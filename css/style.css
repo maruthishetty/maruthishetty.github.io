@@ -1,0 +1,135 @@
+CSS .wow { 
+    visibility: hidden; 
+}
+.thin-bar {
+    border-bottom: 7px solid #673ab7;
+}
+
+.circle {
+    /*border-radius: 50%;*/
+    max-width: 10em;
+    border: solid;
+    color: #673ab7;
+}
+
+.parallax-container{
+    height: 660px;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+.edge{
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #746e7e;
+}
+i:hover {
+    color:#fff  !important;
+}
+.raise:hover{
+  transform: translateY(-0.35em);
+  background-color: #fff !important;
+  color: #673ab7 !important;
+}
+.raise:focus {
+  outline: none;
+}
+.ground{
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+.design{
+    padding-top: 0%;
+    padding-bottom: 5%;
+    border-bottom-right-radius:50%;
+    border-bottom-left-radius:100%;
+    border-top-right-radius:100%;
+    border-top-left-radius:30%;
+}
+.design2{
+    padding-top: 0%;
+    padding-bottom: 5%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:30%;
+    border-top-left-radius:100%;
+}
+.design img {
+    border-radius:2%;
+}
+.design2 img {
+    border-radius:2%;
+}
+.work{
+    padding-top: 3% !important;
+}
+.work-row{
+    margin-bottom: 5%;
+}
+#about {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+#about .details {
+    margin-top: 1em;
+}
+/*.ab {
+    background: white;
+    color: #b71c1c ;
+    font-size: 42px;
+}*/
+#about h2 {
+    color: #fff;
+    font-size: 2.9em;
+    padding-bottom: 0.8em;
+}
+/* Cp */
+.my-button {
+    font-size: 1em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    border-radius: 45px;
+    height: auto;
+    padding: 1em 2.9em;
+}
+
+.my-button:hover {
+    cursor: pointer;
+    padding: 1em 3.9em;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+#experience {
+    padding: 6em 4em 5.6em;
+}
+/*end*/
+
+/*typed.js*/
+.typed-cursor {
+        opacity: 1;
+        animation: blink .7s infinite;
+}
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
